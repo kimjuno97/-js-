@@ -1,0 +1,51 @@
+nav{
+    float: right;
+}
+#clock{
+    margin: 0;
+    text-align: center;
+}
+
+input{
+    margin-left: 45%; 
+    margin-top: 20%;
+}
+button{
+    margin-top: 20%;
+    
+}
+/* hidden은 login-form 스타일을 나타낸다. */
+.hidden{
+    display: flex;
+    justify-items: center;
+    align-items: center; 
+    margin: auto;
+    display: none;
+}
+.list{
+    float: left;
+}
+#todo-form{
+    position: relative;
+    margin: 0;
+}
+#todo-input{
+    position: absolute;
+    margin: 0%;
+}
+button{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    padding: 5px;
+}
+li{
+    height: 30px;
+}
+#quote{
+    margin-top: 15%;
+    margin-left: 40%
+}
+span{padding: 5px;}
